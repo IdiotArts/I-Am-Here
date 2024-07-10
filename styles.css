@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+    background-color: rgb(2, 0, 63);
+    padding: 0px 0px;
+    margin: 0;
+    overscroll-behavior: auto;
+    font-family: sans-serif;
+}
+.heading {
+    color: yellow;
+    font-family: "impact", sans-serif;
+    font-size: 400%;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    text-wrap: nowrap;
+}
+
+.backgroundhead {
+    background-color: rgb(223, 2, 17);
+    padding: .01% 0%;
+    margin-top: 0%;
+    position: relative;
+}
+.video {
+    background-color: aqua;
+    scale: 60% 60%;
+    padding: 2%;
+    padding-bottom: 1%;
+}
+.textbox {
+    background-color: yellow;
+    font-family: "impact", sans-serif;
+    text-transform: uppercase;
+    font-size: 200%;
+    scale: 60% 60%;
+    padding: 1%;
+}
+#normaltext {
+    text-transform: none;
+}
+.buttoner {
+    scale: 60% 60%;
+    padding:5%;
+    margin-bottom: 40%;
+    
+}
+.buttoner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 0;
+    flex-shrink: -5;
+    gap: 1%;
+}
+#one, #two, #three {
+    background-color: yellow;
+    scale: 200% 200%;
+    padding: 1%;
+}
+.footer {
+    background-color: rgb(223, 2, 17);
+    color: rgb(163, 2, 2);
+    padding-top: 10%;
+    text-decoration:none;
+}
+a:link, a:visited {
+    color: white;
+    padding: 10% 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(223, 2, 17);
