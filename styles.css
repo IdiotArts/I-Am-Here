@@ -76,3 +76,9 @@ a:link, a:visited {
   
   a:hover, a:active {
     background-color: rgb(223, 2, 17);
+  }
+.imageflex {
+    padding: 10%;
+    margin: 0%;
+
+}
